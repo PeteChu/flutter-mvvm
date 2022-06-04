@@ -8,7 +8,6 @@ class SingleIncreaseCounterViewModel extends ReactiveViewModel {
 
   void updateCounter() {
     _counterService.incrementCounter();
-    notifyListeners();
   }
 
   @override

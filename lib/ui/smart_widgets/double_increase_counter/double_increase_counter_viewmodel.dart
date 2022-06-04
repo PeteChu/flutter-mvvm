@@ -8,7 +8,6 @@ class DoubleIncreaseCounterViewModel extends ReactiveViewModel {
 
   void updateCounter() {
     _counterService.doubleCounter();
-    notifyListeners();
   }
 
   @override
