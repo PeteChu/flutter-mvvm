@@ -1,6 +1,6 @@
 import 'package:app_mvvm/app/app.locator.dart';
 import 'package:app_mvvm/app/app.router.dart';
-import 'package:app_mvvm/views/reactive_example/reactive_example_view.dart';
+import 'package:app_mvvm/views/future_example/future_example_view.dart';
 import 'package:flutter/material.dart';
 
 import 'package:stacked_services/stacked_services.dart';
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       title: 'MVVM Demo',
       navigatorKey: StackedService.navigatorKey,
       theme: ThemeData(),
-      home: const ReactiveExampleView(),
+      home: const FutureExampleView(),
       onGenerateRoute: StackedRouter().onGenerateRoute,
     );
   }
